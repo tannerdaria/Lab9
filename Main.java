@@ -1,3 +1,9 @@
+/*
+Lab 4
+Me: Tanner Daria.
+Date: 11/16
+*/
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.BufferedReader;
@@ -15,7 +21,7 @@ class Main {
     String age = " ";
     String color = " ";
 
-    people.add(new Person("Tanner", 21, "red"));
+    people.add(new Person("Tanner", 21, "blue"));
     people.add(new Person("A", 87, "pink"));
     people.add(new Person("B", 13, "yellow"));
     people.add(new Person("C", 55, "black"));

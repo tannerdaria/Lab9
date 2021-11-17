@@ -1,6 +1,6 @@
 Tanner
 21
-red
+blue
 A
 87
 pink
