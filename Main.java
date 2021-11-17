@@ -37,9 +37,9 @@ class Main {
         }
         buffer.close();
       }
-      catch (IOException exception)
+      catch (IOException e)
         {
-          exception.printStackTrace();
+          System.out.println("An error occured: " + e);
         }
         try {
           FileReader file = new FileReader("data.txt");
@@ -54,8 +54,8 @@ class Main {
             }
           reader.close();
         }
-        catch (IOException exception){
-          System.out.println("An error occured: " + exception);
+        catch (IOException ex){
+          System.out.println("An error occured: " + ex);
         }
     }
   }
